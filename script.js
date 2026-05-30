@@ -1,5 +1,5 @@
-const endDate= new Date("23 may,2026 17:49:00").getTime();
-const startDate=new Date().getTime();
+const endDate = new Date("31 Dec, 2026 23:59:59").getTime();
+const endDate = new Date("1 Jan, 2027 00:00:00").getTime();
 let x=setInterval(function updateTimer(){
     const now=new Date().getTime();
     const distanceCovered=now-startDate;
